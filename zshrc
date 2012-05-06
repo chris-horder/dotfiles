@@ -44,4 +44,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export EDITOR=vim
+#export EDITOR=vim
+export EDITOR='mate -w'
