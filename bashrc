@@ -3,7 +3,10 @@
 
 # Bash customisations to be syncronised between machines.
 #export PS1='\[\e[1;34m\][\u@\h \W]\$\[\e[0m\] '
-export PS1='\u@\h:\W$(__git_ps1 "(%s)") \$ '
+
+
+
+export PS1="\w \$(parse_git_branch)\$ "
 
 # Enable vi mode
 set -o vi
@@ -28,3 +31,5 @@ alias rvim='mvim --remote-silent '
 
 # Reload .bashrc
 alias refresh='. ~/.bashrc'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

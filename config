@@ -4,35 +4,9 @@ Protocol 2
 ServerAliveInterval 60
 
 #Work
-Host 192.168.2.110
-HostName w10
 
-Host 192.168.2.111
-HostName w11
-
-Host 192.168.2.112
-HostName w12
-
-Host 192.168.2.9
-HostName w13
-
-Host 192.168.2.114
-HostName w14
-
-Host 192.168.2.109
-HostName w9
-
-Host 192.168.2.15
-HostName w5
-
-Host 192.168.2.106
-HostName w6
-
-Host 192.168.2.10
-HostName talk
-
-Host 192.168.2.8
-HostName eye
+Host devmaster
+HostName 192.168.0.100
 
 Host fortuna
 HostName fortuna
