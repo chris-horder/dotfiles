@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+PATH=/usr/local/bin:$PATH
 
 # Setup Amazon EC2 Command-Line Tools
 export EC2_HOME=~/.ec2
@@ -39,7 +40,7 @@ DISABLE_AUTO_TITLE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git textmate rake)
 
 source $ZSH/oh-my-zsh.sh
 
